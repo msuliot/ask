@@ -1,50 +1,70 @@
-# Ask
+# Getting Started in AI
 
-Ask is a super simple example of how to create an OpenAI chatbot.
+Welcome to our project on getting started in AI! This guide will walk you through the initial steps to set up your development environment, access OpenAI's API, and run your first AI application.
 
-## Getting Started
+## Prerequisites
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Before you start, make sure you have the following:
 
-### Prerequisites
+- A GitHub account
+- An account with OpenAI (to access API keys)
 
-Before you begin, ensure you have met the following requirements:
+## Step 1: Setting Up Your OpenAI Account
 
-* You have installed the latest version of Python.
+1. Go to [OpenAI](https://openai.com/) and sign up for an account if you haven't already.
+2. Once logged in, navigate to the API section and take note of your API keys. You'll need these to interact with OpenAI's services programmatically.
 
-### Installing Ask
+## Step 2: Installing Visual Studio Code
 
-To install Ask, follow these steps:
+1. Download and install Visual Studio Code (VS Code) from [here](https://code.visualstudio.com/).
+2. Launch VS Code after installation.
 
-1. Clone the repo
-   ```
-   git clone https://github.com/<your-github-username>/ask.git
-   ```
-2. Change to the directory
-   ```
-   cd ask
-   ```
-3. Create a virtual environment
-   ```
-   python3 -m venv env
-   ```
-4. Activate the virtual environment
-   ```
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
-   ```
-5. Install the requirements
-   ```
-   pip install -r requirements.txt
-   ```
+## Step 3: Installing Extensions
 
-### Using Ask
+To make the most out of VS Code for AI development, install the following extensions:
 
-To use Ask, you need to create a `.env` file for your OpenAI key. You can get the OpenAI key
+- Python: For writing and executing Python code.
+- GitHub Copilot: Offers AI-powered code suggestions.
 
-Create the `.env` file, add the following line:
+To install an extension, click on the Extensions view icon on the Sidebar or press `Ctrl+Shift+X` and search for the extension by name. Click Install to add it to your VS Code.
 
-```
-OPENAI_API_KEY = your-key-here
+## Step 4: Setting Up a Virtual Environment
+
+1. Open a terminal in VS Code (`Ctrl+` `` `).
+2. Navigate to your project directory.
+3. Run the following command to create a virtual environment:
+
+```bash
+python -m venv venv
 ```
 
-Replace `your-key-here` with your actual OpenAI key.
+4. Activate the virtual environment:
+
+- On Windows:
+
+```bash
+.\venv\Scripts\activate
+```
+
+- On macOS/Linux:
+
+```bash
+source venv/bin/activate
+```
+
+## Step 5: Creating Your AI Application
+
+1. With your virtual environment activated, create a file named `app.py` in your project directory.
+2. Open `app.py` in VS Code and start coding your AI application.
+
+## Running Your Application
+
+Ensure your virtual environment is activated, and run the following command in the terminal:
+
+```bash
+python app.py
+```
+
+## Conclusion
+
+Congratulations! You've set up your AI development environment and are ready to start building AI applications. Remember to explore the OpenAI documentation and API references to learn more about the capabilities available to you.
