@@ -66,7 +66,7 @@ Before running your AI application, it's important to securely store your OpenAI
 
 ```plaintext
 OPENAI_API_KEY=your_openai_api_key_here
-
+```
 
 ## Running Your Application
 
