@@ -6,6 +6,7 @@ Welcome to our project on getting started in AI! This guide will walk you throug
 
 Before you start, make sure you have the following:
 
+- Python 3.9 or later installed
 - A GitHub account
 - An account with OpenAI (to access API keys)
 
@@ -29,6 +30,10 @@ To make the most out of VS Code for AI development, install the following extens
 To install an extension, click on the Extensions view icon on the Sidebar or press `Ctrl+Shift+X` and search for the extension by name. Click Install to add it to your VS Code.
 
 ## Step 4: Setting Up a Virtual Environment
+
+### From within VS code, click on view, and then command palette, then type python Create environment
+
+or 
 
 1. Open a terminal in VS Code (`Ctrl+` `` `).
 2. Navigate to your project directory.
