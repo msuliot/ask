@@ -28,7 +28,6 @@ def add_message(role, content):
         messages.append(json_message)
 
 def ask_question(question):
-    add_message("system", "You are an expert in python, data science, artificial intelligence and machine learning")
     add_message("user", question)
     print("-" * 67)
     print("Your question is: ", question)
@@ -36,6 +35,7 @@ def ask_question(question):
     print(call_api("gpt-3.5-turbo", messages, 0.5))
 
 def main():
+    add_message("system", "You are an expert in python, data science, artificial intelligence and machine learning")
     while True:
         question = input("Enter your question (or type 'exit' to quit): ")
         if question.lower() == 'exit':
