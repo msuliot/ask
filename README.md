@@ -57,10 +57,16 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-## Step 5: Creating Your AI Application
+## Step 5: Storing Your OpenAI API Key Securely
 
-1. With your virtual environment activated, create a file named `app.py` in your project directory.
-2. Open `app.py` in VS Code and start coding your AI application.
+Before running your AI application, it's important to securely store your OpenAI API key. We'll use a `.env` file for this purpose.
+
+1. With your virtual environment activated, create a file named `.env` in your project directory.
+2. Open the `.env` file in VS Code and add the following line:
+
+```plaintext
+OPENAI_API_KEY=your_openai_api_key_here
+
 
 ## Running Your Application
 
